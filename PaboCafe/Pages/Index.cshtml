@@ -3,10 +3,30 @@
 @{
     ViewData["Title"] = "Home page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
-
-<a href="/User">User</a><br />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Ordering - Pabocafe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="Contents">
+    <header class="Nama">
+        <h1>Welcome to Pabocafe</h1>
+    </header>
+    <div class="slider-container">
+        <div class="image-slider">
+            <img src="Resources/Americano3.jpg" class="imageshow" alt="Image 1">
+            <img src="Resources/Macchiato2.jpg" class="imageshow" alt="Image 2">
+            <img src="Resources/Latte1.jpg" class="imageshow" alt="Image 3">
+            <!-- Add more images as needed -->
+        </div>
+        <div class="Navs">
+    <button class="prev" onclick="prevImage()">&#10094;</button>
+    <button class="next" onclick="nextImage()">&#10095;</button>
+</div
+    </div>
+    <script src="~/js/site.js"></script>
+</body>
+</html>

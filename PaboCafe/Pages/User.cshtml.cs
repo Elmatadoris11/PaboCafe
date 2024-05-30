@@ -13,7 +13,7 @@ namespace PaboCafe.Pages
 
         public ApplicationUser? appUser;
 
-        public UserModel(UserManager<ApplicationUser>userManager)
+        public UserModel(UserManager<ApplicationUser> userManager)
         {
             this.userManager = userManager;
         }

@@ -18,5 +18,144 @@ html {
 }
 
 body {
+    background-image: url("../Resources/Orange.jpg");
   margin-bottom: 60px;
 }
+
+/** For Contact Page **/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header {
+    background-color: white;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+    header h1 {
+        margin: 0;
+        color: black
+    }
+
+main {
+    padding: 20px;
+}
+
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+    .contact-info p {
+        margin: 10px 0;
+    }
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    .contact-form h3 {
+        margin-top: 0;
+    }
+
+    .contact-form label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .contact-form button {
+        background-color: red;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .contact-form button:hover {
+            background-color: black;
+        }
+
+/** Home Page **/
+.Contents {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Nama h1 {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+.slider-container {
+    position: relative;
+    width: 80%;
+    margin: 2em auto;
+    overflow: hidden;
+}
+
+.image-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.imageshow {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.Navs {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+    .Navs button {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 1em;
+        cursor: pointer;
+    }
+
+    .Navs .prev {
+        position: absolute;
+        left: 0;
+    }
+
+    .Navs .next {
+        position: absolute;
+        right: 0;
+    }
+
+
+    button:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
